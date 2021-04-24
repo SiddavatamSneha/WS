@@ -1,0 +1,124 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Very dark blue (main background): hsl(233, 47%, 7%)
+- Dark desaturated blue (card background): hsl(244, 38%, 16%)
+- Soft violet (accent): hsl(277, 64%, 61%)
+
+### Neutral
+
+- White (main heading, stats): hsl(0, 0%, 100%  )
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+*/
+
+body {
+ /* font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;*/
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+  position: relative ;
+  
+}
+
+.outer{
+    background-color:hsl(244, 38%, 16%) ;
+    position: relative;
+    margin: 150px auto 150px auto;
+    width: 920px;
+    height:370px;
+
+
+}
+
+h1{
+color:hsl(0, 0%, 100% ) ;
+font-family: "Inter", sans-serif;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 25px;
+    line-height: 2;
+
+}
+
+h3{
+    color:hsl(0, 0%, 100% );
+    color:hsl(hue, saturation, lightness)
+}
+img{
+    overflow:auto;
+    float: right;
+    width: 50%;
+    height: 100%;
+    filter:invert(3%) sepia(9%) saturate(4026%) hue-rotate(232deg) brightness(52%) contrast(120%);
+   
+    /*filter: invert(78%) sepia(22%) saturate(6586%) hue-rotate(251deg) brightness(107%) contrast(87%);
+    filter: none|blur()|brightness()|contrast()|drop-shadow()|grayscale()
+        |hue-rotate()|invert()|opacity()|saturate()|sepia()|url();*/
+}
+.stats{
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-size: x-small;
+    font-family: "Inter", sans-serif;
+
+}
+
+.text{
+    width: 330px;
+    position: relative;
+    display: inline-block;
+    left: 50px;
+    top: 40px;
+    right: 50px;
+}
+
+.Image{
+    background-color: hsl(277, 64%, 61%);
+}
+
+.numbers{
+  
+    font-family: "Lexend Deca", sans-serif;
+    font-size: larger;
+}
+
+.insights{
+    color:hsl(277, 64%, 61%);
+}
+td{
+    padding-right: 45px;
+}
+
+table{
+ line-height: 0;   
+}
